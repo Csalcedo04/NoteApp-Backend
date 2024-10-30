@@ -1,0 +1,34 @@
+{
+  "name": "noteapp-backend",
+  "version": "1.0.0",
+  "description": "Backend for Note-App-React using Postgress, Docker and Jenkins",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Csalcedo04/NoteApp-Backend.git"
+  },
+  "keywords": [
+    "Express",
+    "Nodejs",
+    "Postgress",
+    "Docker",
+    "Jenkins"
+  ],
+  "author": "Carlos Alberto Salcedo Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Csalcedo04/NoteApp-Backend/issues"
+  },
+  "homepage": "https://github.com/Csalcedo04/NoteApp-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
